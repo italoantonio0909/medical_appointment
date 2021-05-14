@@ -1,0 +1,28 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+psycopg2 = "==2.8.6"
+djangorestframework = "==3.11.0"
+django-cors-headers = "==3.7.0"
+twilio = "==5.7.0"
+django-rest-passwordreset = "*"
+celery = "==5.0.5"
+django-celery-results = "==2.0.1"
+django-celery-beat = "==2.2.0"
+djangorestframework-simplejwt = "*"
+django-filter = "==2.4.0"
+django-rest-auth = {extras = ["with_social"], version = "*"}
+django-environ = "==0.4.5"
+Django = "==3.1"
+Pillow = "==8.1.0"
+pytest = "*"
+pytest-django = "*"
+faker = "*"
+
+[requires]
+python_version = "3.8"
